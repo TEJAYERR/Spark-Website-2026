@@ -1,3 +1,4 @@
+import EventsCategories from "../Componenets/EventsCategories";
 import Hero from "../Componenets/Hero";
 
 
@@ -7,6 +8,7 @@ const Home = () => {
             {/* poster */}
             <div className="">
                 <Hero />
+                <EventsCategories />
             </div>
         </div>
     )

@@ -1,4 +1,4 @@
-import { Mail, Phone } from "lucide-react"
+import { Code, Gamepad2, Lightbulb, Mail, Music, Phone } from "lucide-react"
 import { PiPhone } from "react-icons/pi"
 
 
@@ -46,3 +46,46 @@ export const contact = [
         ]
     },
 ]
+
+export const EventsCategoriesData = [
+    {
+        img : <Code />,
+        name : "Technical Events",
+        events : [
+            "PPT Presentation",
+            "Poster Presentation",
+            "Quiz Programs",
+            "Branch Related Events",
+        ]
+    },
+    {
+        img : <Gamepad2 />,
+        name : "Sports Tournaments",
+        events : [
+            "PPT Presentation",
+            "Poster Presentation",
+            "Quiz Programs",
+            "Branch Related Events",
+        ]
+    },
+    {
+        img : <Music />,
+        name : "Cultural Programs",
+        events : [
+            "PPT Presentation",
+            "Poster Presentation",
+            "Quiz Programs",
+            "Branch Related Events",
+        ]
+    },
+    {
+        img : <Lightbulb />,
+        name : "Spotlight Events",
+        events : [
+            "PPT Presentation",
+            "Poster Presentation",
+            "Quiz Programs",
+            "Branch Related Events",
+        ]
+    }
+] 
