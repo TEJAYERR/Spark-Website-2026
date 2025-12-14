@@ -17,12 +17,12 @@ import Background from './Componenets/Background'
 function App() {
 
   return (
-    <div className='flex flex-col min-h-screen orbitron'>
+    <div className='flex flex-col min-h-screen orbitron justify-between'>
 
       <Background />
       <Navbar />
       {/* Middle Content */}
-      <div className='px-5'>
+      <div className='px-5 min-h-[90vh]'>
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<About />} />
